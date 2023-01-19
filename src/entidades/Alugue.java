@@ -1,11 +1,12 @@
 package entidades;
 
+import interfaces.AlugueService;
 import interfaces.Cliente;
 import interfaces.Veiculo;
 
 import java.math.BigDecimal;
 
-public class Alugue {
+public class Alugue implements AlugueService {
 
     Cliente cliente;
 
@@ -18,7 +19,7 @@ public class Alugue {
         this.veiculo = veiculo;
         this.quantDiasAluguel = quantDiasAluguel;
     }
-
+    @Override
    public BigDecimal calcularAluguel(){
 
         BigDecimal desconto = BigDecimal.ZERO;
