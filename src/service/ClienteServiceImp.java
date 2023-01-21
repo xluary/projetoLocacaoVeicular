@@ -1,4 +1,4 @@
-package entidades;
+package service;
 
 import interfaces.Cliente;
 import interfaces.ClienteRepository;
@@ -15,7 +15,7 @@ public class ClienteServiceImp implements ClienteService {
     }
 
     @Override
-    public void cadastrarCliente(ClienteImp cliente) {
+    public void cadastrarCliente(Cliente cliente) {
         repository.salvar(cliente);
     }
 

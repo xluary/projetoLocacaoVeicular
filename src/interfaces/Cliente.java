@@ -5,4 +5,6 @@ public interface Cliente {
     double getDesconto();
 
     int getQuantDiariaDesconto();
+
+    String getNome();
 }

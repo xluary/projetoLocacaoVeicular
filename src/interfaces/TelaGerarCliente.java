@@ -6,5 +6,5 @@ import java.util.Scanner;
 
 public interface TelaGerarCliente {
 
-    ClienteImp gerarCliente(String nome, Scanner scanner);
+    Cliente gerarCliente(String nome, Scanner scanner);
 }

@@ -1,12 +1,14 @@
 package interfaces;
 
-import entidades.ClienteImp;
 
 import java.util.List;
+import java.util.Optional;
 
 public interface ClienteRepository {
 
-    void salvar(ClienteImp cliente);
+    void salvar(Cliente cliente);
 
-    List<ClienteImp> getClientes();
+    List<Cliente> getClientes();
+
+    public Optional<Cliente> buscarPorNome(String nome);
 }

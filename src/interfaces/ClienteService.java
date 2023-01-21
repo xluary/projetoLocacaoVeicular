@@ -4,5 +4,5 @@ import entidades.ClienteImp;
 
 public interface ClienteService {
 
-    void cadastrarCliente(ClienteImp cliente);
+    void cadastrarCliente(Cliente cliente);
 }

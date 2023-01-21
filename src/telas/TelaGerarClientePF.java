@@ -8,10 +8,10 @@ import java.util.Scanner;
 
 public class TelaGerarClientePF implements TelaGerarCliente {
     @Override
-    public ClienteImp gerarCliente(String nome, Scanner scanner) {
+    public Cliente gerarCliente(String nome, Scanner scanner) {
         System.out.println("Digite o CPF do cliente: ");
         String cpf = scanner.next();
-        ClienteImp cliente = new ClientePFImp(nome, cpf);
+        Cliente cliente = new ClientePFImp(nome, cpf);
         return cliente;
     }
 }
