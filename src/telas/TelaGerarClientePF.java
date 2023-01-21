@@ -1,6 +1,5 @@
 package telas;
 
-import entidades.ClienteImp;
 import entidades.ClientePFImp;
 import interfaces.Cliente;
 import interfaces.TelaGerarCliente;

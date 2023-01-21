@@ -1,6 +1,5 @@
 package interfaces;
 
-import entidades.ClienteImp;
 
 public interface ClienteService {
 

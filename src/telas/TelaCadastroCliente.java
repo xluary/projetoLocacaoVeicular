@@ -1,14 +1,8 @@
 package telas;
 
-import entidades.ClienteImp;
-import entidades.ClientePFImp;
 import entidades.TipoCliente;
 import fabricas.FabricaTelaCliente;
-import repository.ClienteRepositoryImp;
-import service.ClienteServiceImp;
 import interfaces.*;
-
-import java.util.Optional;
 import java.util.Scanner;
 
 public class TelaCadastroCliente {

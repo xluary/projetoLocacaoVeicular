@@ -1,11 +1,7 @@
 package telas;
 
-import entidades.Aluguel;
 import interfaces.AluguelRepository;
 import interfaces.Cliente;
-
-import java.util.List;
-import java.util.Optional;
 import java.util.Scanner;
 
 public class TelaAlugueisCliente {

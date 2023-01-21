@@ -1,17 +1,8 @@
 package telas;
 
-import entidades.Aluguel;
-import entidades.ClienteImp;
-import entidades.TipoCliente;
 import entidades.TipoVeiculo;
 import fabricas.FabricaTelaVeiculo;
 import interfaces.*;
-import repository.AluguelRepositoryImp;
-import service.Alugue;
-
-import java.math.BigDecimal;
-import java.sql.Timestamp;
-import java.time.Instant;
 import java.util.Scanner;
 
 public class TelaAluguel {

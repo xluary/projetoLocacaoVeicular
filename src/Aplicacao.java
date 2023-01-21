@@ -1,13 +1,10 @@
 
-import entidades.ClientePJImp;
 import entidades.Menu;
 import interfaces.*;
 import repository.AluguelRepositoryImp;
 import repository.ClienteRepositoryImp;
 import service.Alugue;
 import service.ClienteServiceImp;
-import telas.TelaAluguel;
-import telas.TelaCadastroCliente;
 
 import java.util.Scanner;
 
